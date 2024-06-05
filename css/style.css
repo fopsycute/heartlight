@@ -347,6 +347,10 @@ body, html {
 
 
 }
+.btn-pre{
+	background:#FFE998;
+	color:white;
+}
 .btnd h5{
 font-family: Space Grotesk;
 color: #FFFFFF;
