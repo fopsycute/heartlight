@@ -3,6 +3,10 @@
     --primary: #06A3DA;
     --secondary: #34AD54;
     --light: #EEF9FF;
+    --dark: #091E3E;
+}
+
+
 /*** Spinner ***/
 .spinner {
     width: 40px;
@@ -343,10 +347,6 @@ body, html {
 
 
 }
-.btn-pre{
-	background-color:#FFE998;
-	color:white;
-}
 .btnd h5{
 font-family: Space Grotesk;
 color: #FFFFFF;
@@ -354,7 +354,10 @@ font-size: 20px;
 }
    
 
-
+.btn-set{
+background-color:#FFE998;
+color: #FFFFFF;
+}
 .img-container {
     position: relative;
     width: 100%;
