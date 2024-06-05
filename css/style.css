@@ -239,7 +239,7 @@ color: #FFFFFF;
       left: 0;
       width: 100%;
       height: 100%;
-    background-image: url('../img/bg_image.png');    
+    background-color:#000000;    
       background-size: cover;
       filter: blur(5px);
       z-index: -1;
@@ -407,7 +407,7 @@ color: #FFFFFF;
 	
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle at center, transparent 80%, rgba(0, 0,8 0, 0.2) 40%, black 50%);
+    background: radial-gradient(circle at center, transparent 80%, rgba(0, 0, 0, 0.8) 40%, black 50%);
     mix-blend-mode: multiply;
     z-index: 1;
     pointer-events: none; /* Ensure it doesn't block any interactions */
@@ -593,15 +593,16 @@ font-size:16px;
 
 }
 .dark-eclipses {
-    position: absolute;
+   position: absolute;
     top: 0;
     left: 0;
+	
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle at center, transparent 10%, rgba(0, 0, 0, 0.9) 50%, black 60%);
+    background: radial-gradient(circle at center, transparent 50%, rgba(0, 0, 0, 0.9) 60%, black 70%);
     mix-blend-mode: multiply;
     z-index: 1;
-    pointer-events: none; /* Ensure it doesn't block any interactions */
+    pointer-events: none; 
 }
 @media (max-width: 768px) {
     .dark-eclipses {
