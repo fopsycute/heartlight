@@ -89,8 +89,14 @@ h6,
     color:#000000;
   background: #FFFFFF;
 }
-
-
+.btn-sec:hover{
+background:#57370D;
+	color:ffffff;
+}
+.btn-pri:hover{
+background:#57370D;
+	color:ffffff;
+}
 @media (max-width: 576px) {
 .btn-pri{
 width: 200px;
