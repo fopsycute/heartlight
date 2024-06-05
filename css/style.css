@@ -3,10 +3,6 @@
     --primary: #06A3DA;
     --secondary: #34AD54;
     --light: #EEF9FF;
-    --dark: #091E3E;
-}
-
-
 /*** Spinner ***/
 .spinner {
     width: 40px;
@@ -348,7 +344,7 @@ body, html {
 
 }
 .btn-pre{
-	background:#FFE998;
+	background-color:#FFE998;
 	color:white;
 }
 .btnd h5{
